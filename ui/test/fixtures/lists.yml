@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  desc: MyText
+  classification: MyString
+  segment: MyString
+  slice: 1
+  share: 1.5
+  zone: 2015-06-25 22:52:37
+  department: MyString
+
+two:
+  name: MyString
+  desc: MyText
+  classification: MyString
+  segment: MyString
+  slice: 1
+  share: 1.5
+  zone: 2015-06-25 22:52:37
+  department: MyString

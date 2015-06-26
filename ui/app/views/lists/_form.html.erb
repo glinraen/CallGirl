@@ -1,0 +1,49 @@
+<%= form_for(@list) do |f| %>
+  <% if @list.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@list.errors.count, "error") %> prohibited this list from being saved:</h2>
+
+      <ul>
+      <% @list.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :desc %><br>
+    <%= f.text_area :desc %>
+  </div>
+  <div class="field">
+    <%= f.label :classification %><br>
+    <%= f.text_field :classification %>
+  </div>
+  <div class="field">
+    <%= f.label :segment %><br>
+    <%= f.text_field :segment %>
+  </div>
+  <div class="field">
+    <%= f.label :slice %><br>
+    <%= f.number_field :slice %>
+  </div>
+  <div class="field">
+    <%= f.label :share %><br>
+    <%= f.text_field :share %>
+  </div>
+  <div class="field">
+    <%= f.label :zone %><br>
+    <%= f.datetime_select :zone %>
+  </div>
+  <div class="field">
+    <%= f.label :department %><br>
+    <%= f.text_field :department %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: mysql2
-  database: alloysecretsdev
+  database: callgirl
   host: 10.0.1.32
-  user: alloysecrets
+  user: callgirl
   password: password
   pool: 5
   timeout: 5000
@@ -23,9 +23,9 @@ test:
 
 production:
   adapter: mysql2
-  database: alloysecretsdev
+  database: callgirl
   host: 10.0.1.32
-  user: alloysecrets
+  user: callgirl
   password: password
   pool: 5
   timeout: 5000
