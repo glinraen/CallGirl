@@ -3,10 +3,15 @@ Generic CRUD 5 model rails ui skeleton for use as a starting point for other rai
 
 Each 
 *list -> has_many: members
+
 *member -> has_many :components
+
 *component -> has_many: modules
+
 *module -> has_many: attributes 
+
 *attribute -> has_many: details
+
 *detail -> has_many: statistics
  
  ** TODO **
