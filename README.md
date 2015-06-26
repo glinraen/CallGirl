@@ -1,7 +1,8 @@
 # CallGirl
 Generic CRUD 5 model rails ui skeleton for use as a starting point for other rails applications. Nested with has_many&lt;->belongs_to relationships between each section. 
 
-Each 
+Each:
+
 *list -> has_many: members
 
 *member -> has_many :components
