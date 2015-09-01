@@ -1,5 +1,15 @@
-# CallGirl
+# CallGirl Pre-v0.1.0
+pre v.01 before adding models from system and adminlte
 Generic CRUD 5 model rails ui skeleton for use as a starting point for other rails applications. Nested with has_many&lt;->belongs_to relationships between each section. 
+
+## Gems
+Jquery
+Bootstrap3
+
+## Database Support
+Mysql2 -> Working!
+Mongo/Mongoid
+Redis
 
 Each:
 
