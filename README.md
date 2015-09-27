@@ -1,5 +1,9 @@
 # CallGirl
-Generic CRUD 5 model rails ui skeleton for use as a starting point for other rails applications. Nested with has_many&lt;->belongs_to relationships between each section. 
+Now With More Heat! AdminLTE Template now in place. CallGirl is a Generic CRUD
+ 5 model rails ui skeleton for use as a starting point for other rails
+  applications. Nested with has_many&lt;->belongs_to relationships between
+   each section. Bootstrap-sass, AdminLTE, Plus Mongoid and ActiveRecord in the
+   same bed!
 
 Each:
 
