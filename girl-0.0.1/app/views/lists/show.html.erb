@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @list.name %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @list.desc %>
+</p>
+
+<p>
+  <strong>Classification:</strong>
+  <%= @list.classification %>
+</p>
+
+<p>
+  <strong>Segment:</strong>
+  <%= @list.segment %>
+</p>
+
+<p>
+  <strong>Slice:</strong>
+  <%= @list.slice %>
+</p>
+
+<p>
+  <strong>Share:</strong>
+  <%= @list.share %>
+</p>
+
+<p>
+  <strong>Zone:</strong>
+  <%= @list.zone %>
+</p>
+
+<p>
+  <strong>Department:</strong>
+  <%= @list.department %>
+</p>
+
+<%= link_to 'Edit', edit_list_path(@list) %> |
+<%= link_to 'Back', lists_path %>
